@@ -1,10 +1,10 @@
 # Desarrollo de Software III - Estructuras de datos
 
 ## Contenidos del curso
-1. Fundamentos y estructuras básicas
-  1.1. Arreglos unidimensionales y bidimensionales
-  1.2. Concepto de Tipo Abstracto de Dato (TAD)
-  1.3. Introducción a la complejidad algorítmica
+1. Fundamentos y estructuras básicas <br>
+  1.1. Arreglos unidimensionales y bidimensionales. <br>
+  1.2. Concepto de Tipo Abstracto de Dato (TAD). <br>
+  1.3. Introducción a la complejidad algorítmica. <br>
 
 2. Control de flujo y recursividad
   2.1. Estructuras de control
