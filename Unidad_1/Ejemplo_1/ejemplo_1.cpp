@@ -1,3 +1,18 @@
+/*
+Ejercicio #1.
+
+Desarrollar un programa que reciba n números enteros y almacene los valores en un arreglo. Debe calcular: 
+• Promedio. 
+• Mayor. 
+• Menor. 
+• Cantidad de pares. 
+• Cantidad de impares. 
+• Suma total. 
+• Posición del mayor elemento. 
+
+Restricción: No utilizar vector.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -63,6 +78,7 @@ int main(){
     cout << "Menor: " << menor << "\n";
     cout << "Posición del mayor: " << posicionMayor << "\n";
     // Ejercicio: Mostrar el índice para humanos
+    cout << "Posición del mayor (para humanos): " << (posicionMayor + 1) << "\n";
     cout << "Cantidad de pares: " << pares << "\n";
     cout << "Cantidad de impares: " << impares << "\n"; 
     
