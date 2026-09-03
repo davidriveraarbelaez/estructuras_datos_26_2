@@ -21,7 +21,7 @@ Inicio
         Si numeros[i] es par entonces
             pares = pares + 1
         Sino 
-            impoares = impares + 1
+            impares = impares + 1
         Fin Si
 
         Si numeros[i] > mayor entonces
