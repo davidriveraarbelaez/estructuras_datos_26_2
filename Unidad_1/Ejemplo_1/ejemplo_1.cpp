@@ -62,7 +62,7 @@ int main(){
     cout << "Mayor: " << mayor << "\n"; 
     cout << "Menor: " << menor << "\n";
     cout << "Posición del mayor: " << posicionMayor << "\n";
-//    cout << "Posición del menor: " << posicionMenor << "\n"; // índice para humanos
+    // Ejercicio: Mostrar el índice para humanos
     cout << "Cantidad de pares: " << pares << "\n";
     cout << "Cantidad de impares: " << impares << "\n"; 
     
