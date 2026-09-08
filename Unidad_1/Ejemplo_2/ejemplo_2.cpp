@@ -17,7 +17,7 @@ bool buscar(int datos[], int n, int valor, int &posicion, int &comparaciones){
 }
 
 int main(){
-    int datos[] = {15, 8, 23, 42, 4, 16, 9, 31, 27, 11};
+    int datos[] = {15, 8, 23, 42, 4, 15, 9, 31, 27, 11};
     int n = 10;
 
     int valor;
