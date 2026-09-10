@@ -1,0 +1,76 @@
+# Filtro de notas
+
+Dado un arreglo de notas:
+double notas[] = {4.5, 2.9, 4.6, 2, 3.4, 3.6, 1, 1.5}
+
+El programa debe:
+1. Contar cuántas notas son:
+- Reprobado (menor a 3.0).
+- Aceptable (entre 3.0 y 3.9).
+- Excelente (4.0 o más)
+
+2. Mostrar un resumen.
+
+## Análisis del problema
+
+1. Entradas
+
+| Datos  | Tipo   | Descripción |
+|---|---|---|
+| notas[] | arreglo de double | Notas de los estudiantes |
+| n | entero | Cantidad de notas |
+
+Salidas:
+- Cantidad de reprobados.
+- Cantidad de aceptables.
+- Cantidad de excelentes.
+
+2. Estructura de datos
+
+Arreglo unidimensional (Repaso del módulo 1)
+
+3. Pseudocódigo
+
+Inicio
+    reprobados = 0
+    aceptables = 0
+    excelentes = 0
+    
+    Para i desde 0 hasta n-1 hacer
+        Si notas[i] < 3.0 entonces
+            reprobados = reprobados + 1
+        Sino si notas[i] < 4.0 entonces
+            aceptables = aceptables + 1
+        Sino
+            excelentes = excelentes + 1
+        Fin Si
+    Fin Para
+
+    Mostrar deficientes, aceptables, excelentes
+Fin
+
+4. Código
+
+5. Prueba de escritorio
+
+double notas[] = {4.5, 2.9, 4.6, 2, 3.4, 3.6, 1, 1.5}
+
+| Índice | Nota | Categoría |
+|---|---|---|
+| 0 | 4.5 | Excelente |
+| 1 | 2.9 | Reprobado |
+| 2 | 4.6 | Excelente |
+| 3 | 2.0 | Reprobado |
+| 4 | 3.4 | Aceptable |
+| 5 | 3.6 | Aceptable |
+| 6 | 1.0 | Reprobado |
+| 7 | 1.5 | Reprobado |
+
+Resultado:
+- Reprobados: 4
+- Aceptables: 2
+- Excelentes: 2
+
+6. Complejidad
+Temporal: O(1) por iteración
+Espacial: O(1)
