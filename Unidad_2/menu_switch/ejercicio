@@ -1,0 +1,92 @@
+# Menú con switch
+
+Crear un menú que permita al usuario elegir una operación:
+1. Sumar dos números.
+2. Restar dos números.
+3. Multiplicar dos números.
+4. Dividir dos números.
+0. Salir
+
+El programa debe:
+- Pedir la opción.
+- Pedir los dos números.
+- Mostrar el resultado.
+- Validar división por cero.
+- Validar opción invalida.
+
+## Análisis del problema
+
+1. Entradas
+
+| Datos  | Tipo   | Descripción |
+|---|---|---|
+| opción | entero | Opción del menú |
+| a , b | double | Números a operar |
+
+Salidas:
+- Resultado de la operación.
+- Mensajes de error si hay problemas.
+
+2. Estructura de datos
+
+Variables simples. No se necesita estructura
+
+3. Pseudocódigo
+
+Inicio
+    Repetir
+        Mostrar menú
+        Leer opción
+
+        Si opcion == 0 entonces
+            Salir
+        Fin Si
+
+        Si opcion está entre 1 y 4 entonces
+            Leer a, b
+
+            Según opcion hacer
+                Caso 1: Mostrar a + b
+                Caso 2: Mostrar a - b
+                Caso 3: Mostrar a * b
+Fin
+
+4. Código
+
+- Lectura del dato
+- Se usará do-while porque el menú debe mostrarse al menos una vez.
+
+5. Prueba escritorio
+
+*Caso 1: Opción 4 con b = 0*
+
+
+Salida esperada:
+- Opción: 4 
+- Número 1: 10 
+- Número 2: 0 
+- Error: No se puede dividir por cero.
+
+*Caso 2: Opción inválida*
+
+Salida esperada:
+- Opción: 9 
+- Opción inválida
+
+*Caso 3: Opción 0*
+
+Salida esperada:
+- Opción: 0 
+- Saliendo. . .
+
+*Ejercicio Caso 4: Opción 2*
+
+Salida esperada:
+- Opción: 2
+- Número 1: ¿?
+- Número 2: ¿?
+- Error: ¿?
+
+6. Complejidad
+Temporal: O(1) por iteración
+Espacial: O(1)
