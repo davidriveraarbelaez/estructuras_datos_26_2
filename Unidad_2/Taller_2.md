@@ -1,7 +1,5 @@
 # Taller 2 — Control de flujo y recursividad
 
-## Tecnología en Desarrollo de Software
-
 ### Propósito
 
 Este taller tiene como propósito practicar los conceptos del **Módulo 2 — Control de flujo y recursividad**, pasando progresivamente de la interpretación manual de algoritmos a la implementación en C++.
@@ -1027,18 +1025,3 @@ Antes de entregar, verifique:
 - [ ] Analicé la complejidad.
 - [ ] Revisé los casos límite.
 - [ ] Mi solución no utiliza estructuras o funciones que no están permitidas.
-
----
-
-# 13. Preguntas de reflexión
-
-1. ¿Cuándo resulta más natural utilizar `for`?
-2. ¿Cuándo resulta más natural utilizar `while`?
-3. ¿Por qué `do-while` es útil para menús y validaciones?
-4. ¿Qué diferencia existe entre `break` y `continue`?
-5. ¿Qué dos componentes debe tener una función recursiva?
-6. ¿Qué ocurre en memoria cuando una función recursiva realiza muchas llamadas?
-7. ¿Por qué una solución recursiva puede utilizar más memoria que una iterativa?
-8. ¿Por qué no debemos utilizar recursividad únicamente porque es posible?
-9. ¿Qué características hacen que un problema sea apropiado para recursividad?
-10. ¿Qué información debe analizarse antes de decidir entre una solución iterativa y una recursiva?
